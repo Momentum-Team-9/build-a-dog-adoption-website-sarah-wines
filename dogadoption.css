@@ -53,6 +53,7 @@ ul {
 
 .card {
   margin: 10px;
+  margin-bottom: 25px;
   height: 400px;
   width: 400px;
   flex-wrap: wrap;
@@ -63,4 +64,26 @@ ul {
   flex-wrap: wrap;
   align-items: center;
   margin: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  font-family: "Oswald", sans-serif;
+  font-size: 40px;
+  color: white;
+  height: 400px;
+  background-color: blue;
+  align-items: center;
+}
+.donate {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.volunteer {
+  flex: 1 1 auto;
+  text-align: center;
+}
+.location {
+  flex: 1 1 auto;
+  text-align: center;
 }
