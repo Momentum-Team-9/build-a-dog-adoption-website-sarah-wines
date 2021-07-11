@@ -14,12 +14,13 @@ h1 {
   padding: 20px;
   padding-left: 40px;
 }
-h2 {
+.adoptadog {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
   padding: 12px;
   padding-left: 40px;
 }
+
 p {
   font-family: "Open Sans", sans-serif;
   padding-left: 40px;
@@ -28,16 +29,26 @@ ul {
   list-style-type: none;
 }
 .dogimage {
-  height: 200px;
+  width: 400px;
+  margin: 3px;
 }
 .dogname {
   font-family: "Oswald", sans-serif;
   font-size: 18px;
 }
+.adoptabledogs {
+  display: flex;
+  flex-wrap: wrap;
+}
 .dogtraits {
   background-color: #89deef;
-  border-radius: 10%;
+  border-radius: 20%;
   padding: 3px;
+  margin: 3px;
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 12px;
+  display: inline-block;
+}
+.card {
+  width: 400px;
 }
