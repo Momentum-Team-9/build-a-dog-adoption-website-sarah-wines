@@ -72,18 +72,46 @@ ul {
   font-size: 40px;
   color: white;
   height: 400px;
-  background-color: blue;
   align-items: center;
 }
 .donate {
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
+  justify-content: center;
   text-align: center;
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.6),
+      rgba(166, 169, 240, 0.6)
+    ),
+    no-repeat center/cover url(./starter_files/images/donate.jpg);
+  height: 400px;
 }
+
 .volunteer {
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
+  justify-content: center;
   text-align: center;
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.6),
+      rgba(166, 169, 240, 0.6)
+    ),
+    no-repeat center/cover url(./starter_files/images/volunteer.jpg);
+  height: 400px;
 }
+
 .location {
+  display: flex;
+  flex-direction: column;
   flex: 1 1 auto;
+  justify-content: center;
   text-align: center;
+  background: linear-gradient(
+      rgba(166, 169, 240, 0.6),
+      rgba(166, 169, 240, 0.6)
+    ),
+    no-repeat center/cover url(./starter_files/images/location.png);
+  height: 400px;
 }
