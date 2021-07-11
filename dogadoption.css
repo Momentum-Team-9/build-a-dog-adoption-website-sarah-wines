@@ -14,6 +14,10 @@ h1 {
   padding: 20px;
   padding-left: 40px;
 }
+p {
+  font-family: "Open Sans", sans-serif;
+  padding-left: 40px;
+}
 .adoptadog {
   font-family: "Open Sans", sans-serif;
   font-size: 18px;
@@ -21,34 +25,40 @@ h1 {
   padding-left: 40px;
 }
 
-p {
-  font-family: "Open Sans", sans-serif;
-  padding-left: 40px;
-}
 ul {
   list-style-type: none;
 }
 .dogimage {
+  max-width: 100%;
+  height: auto;
   width: 400px;
-  margin: 3px;
 }
 .dogname {
   font-family: "Oswald", sans-serif;
   font-size: 18px;
 }
-.adoptabledogs {
-  display: flex;
-  flex-wrap: wrap;
+
+ul {
+  width: 400px;
 }
 .dogtraits {
   background-color: #89deef;
-  border-radius: 20%;
-  padding: 3px;
+  border-radius: 5px;
+  padding: 5px;
   margin: 3px;
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   display: inline-block;
 }
+
 .card {
+  margin: 20px;
+  height: 400px;
   width: 400px;
+  flex-wrap: wrap;
+}
+.dogs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
