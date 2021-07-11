@@ -16,10 +16,28 @@ h1 {
 }
 h2 {
   font-family: "Open Sans", sans-serif;
+  font-size: 18px;
   padding: 12px;
   padding-left: 40px;
 }
 p {
   font-family: "Open Sans", sans-serif;
   padding-left: 40px;
+}
+ul {
+  list-style-type: none;
+}
+.dogimage {
+  height: 200px;
+}
+.dogname {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+}
+.dogtraits {
+  background-color: #89deef;
+  border-radius: 10%;
+  padding: 3px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
 }
